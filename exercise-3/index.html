@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Tic<span>-</span>Tac<span>-</span>Toe</h1>
+
+    <div class="scoreboard">
+      <div class="score score-x" id="scoreX">
+        <span class="label">Player X</span>
+        <span class="value">0</span>
+      </div>
+      <div class="score score-draw" id="scoreDraw">
+        <span class="label">Draws</span>
+        <span class="value">0</span>
+      </div>
+      <div class="score score-o" id="scoreO">
+        <span class="label">Player O</span>
+        <span class="value">0</span>
+      </div>
+    </div>
+
+    <p class="status" id="status"></p>
+
+    <div class="board" id="board"></div>
+
+    <button type="button" class="restart-btn" id="restartBtn">↻ New Round</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
